@@ -1,5 +1,7 @@
 FROM python:3.8
 
+MAINTAINER Alexander Gaivoronsky <lifami40@gmail.com>
+
 RUN apt update
 RUN apt upgrade -y
 RUN apt install ffmpeg python3-pip -y
